@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "CyberRazorMobile",
-    "slug": "CyberRazorMobile",
+    "name": "CyberRazor",
+    "slug": "cyberrazor",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -16,14 +16,25 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.cyberrazor.mobile",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a1e68776-3ec2-4795-89cc-4767b6b0c51b"
+      }
     }
   }
 }

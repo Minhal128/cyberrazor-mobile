@@ -1,0 +1,1634 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What can CyberRazor do for me?",
+      "answer": "It protects your system from cyber threats using AI."
+    },
+    {
+      "id": 2,
+      "question": "How does CyberRazor keep my data safe?",
+      "answer": "It encrypts data and blocks unauthorized access."
+    },
+    {
+      "id": 3,
+      "question": "Is CyberRazor a free or paid system?",
+      "answer": "It's free for now and open source."
+    },
+    {
+      "id": 4,
+      "question": "How do I install or access CyberRazor?",
+      "answer": "You can install it from the official setup or access it through the web and mobile app."
+    },
+    {
+      "id": 5,
+      "question": "Can I use CyberRazor on my phone?",
+      "answer": "Yes, it works on Android and iOS."
+    },
+    {
+      "id": 6,
+      "question": "How do I sign up or log in to CyberRazor?",
+      "answer": "Go to the login page, create an account, and verify your email."
+    },
+    {
+      "id": 7,
+      "question": "I forgot my password — what should I do?",
+      "answer": "Click \"Forgot Password\" and reset it through your email."
+    },
+    {
+      "id": 8,
+      "question": "Can I connect my organization's devices with CyberRazor?",
+      "answer": "Yes, you can link all devices using agent keys."
+    },
+    {
+      "id": 9,
+      "question": "How often does CyberRazor update its threat database?",
+      "answer": "It updates automatically and regularly."
+    },
+    {
+      "id": 10,
+      "question": "Does CyberRazor work offline?",
+      "answer": "Some parts work offline, but AI scans need internet."
+    },
+    {
+      "id": 11,
+      "question": "How can I report a bug or issue in CyberRazor?",
+      "answer": "You can report it through the feedback or support option."
+    },
+    {
+      "id": 12,
+      "question": "Is my personal data shared with others?",
+      "answer": "No, your data stays private and secure."
+    },
+    {
+      "id": 13,
+      "question": "Can I view past alerts or incident history?",
+      "answer": "Yes, in the \"Threat Log\" or \"History\" section."
+    },
+    {
+      "id": 14,
+      "question": "How can I customize alert notifications?",
+      "answer": "You can adjust them in the \"Notification Settings\"."
+    },
+    {
+      "id": 15,
+      "question": "Does CyberRazor support dark mode?",
+      "answer": "Yes, it has dark mode."
+    },
+    {
+      "id": 16,
+      "question": "How can I update to the latest version of the app?",
+      "answer": "Go to settings and click \"Update App\"."
+    },
+    {
+      "id": 17,
+      "question": "How can I contact technical support?",
+      "answer": "Use the \"Contact Support\" or email option in the app."
+    },
+    {
+      "id": 18,
+      "question": "Does CyberRazor automatically block hackers?",
+      "answer": "Yes, it can block attacks using AI and Wazuh agents."
+    },
+    {
+      "id": 19,
+      "question": "What happens when CyberRazor detects a threat?",
+      "answer": "It alerts you and can quarantine or remove the file."
+    },
+    {
+      "id": 20,
+      "question": "Can CyberRazor clean viruses or malware from my system?",
+      "answer": "Yes, it can detect and remove harmful files."
+    },
+    {
+      "id": 21,
+      "question": "How do I connect Wazuh with CyberRazor?",
+      "answer": "Add the Wazuh API URL and credentials in settings."
+    },
+    {
+      "id": 22,
+      "question": "My alerts are not loading — what can I do?",
+      "answer": "Check your internet and restart the dashboard."
+    },
+    {
+      "id": 23,
+      "question": "How do I connect MongoDB to my CyberRazor backend?",
+      "answer": "Use your MongoDB URI in the .env file."
+    },
+    {
+      "id": 24,
+      "question": "How do I configure the MongoDB URI?",
+      "answer": "Set the correct username, password, and cluster link."
+    },
+    {
+      "id": 25,
+      "question": "The dashboard isn't updating — why?",
+      "answer": "Maybe your backend or WebSocket is disconnected."
+    },
+    {
+      "id": 26,
+      "question": "I can't access my backend API — what's wrong?",
+      "answer": "Check server status, port, and network settings."
+    },
+    {
+      "id": 27,
+      "question": "How do I restart the CyberRazor backend service?",
+      "answer": "Use the command pm2 restart all or restart manually."
+    },
+    {
+      "id": 28,
+      "question": "How do I deploy CyberRazor on another server?",
+      "answer": "Clone the code, set up dependencies, and run the backend."
+    },
+    {
+      "id": 29,
+      "question": "What port should I use for the CyberRazor API?",
+      "answer": "Default port is *8000* (you can change it)."
+    },
+    {
+      "id": 30,
+      "question": "How do I enable email notifications in CyberRazor?",
+      "answer": "Add your SMTP email settings in the backend config."
+    },
+    {
+      "id": 31,
+      "question": "How do I set up WhatsApp alerts?",
+      "answer": "Use Twilio or similar API integration."
+    },
+    {
+      "id": 32,
+      "question": "My Expo Go app crashes — what should I do?",
+      "answer": "Clear cache or reinstall the app."
+    },
+    {
+      "id": 33,
+      "question": "How do I refresh my React dashboard data?",
+      "answer": "Click refresh or reload from the WebSocket feed."
+    },
+    {
+      "id": 34,
+      "question": "I see a blank page — is there an error log?",
+      "answer": "Yes, check the console or backend logs."
+    },
+    {
+      "id": 35,
+      "question": "How can I check if AI models are running properly?",
+      "answer": "See the AI status panel in admin dashboard."
+    },
+    {
+      "id": 36,
+      "question": "How does CyberRazor use AI?",
+      "answer": "It uses AI to detect, classify, and stop threats."
+    },
+    {
+      "id": 37,
+      "question": "Can I see how accurate the AI detection is?",
+      "answer": "Yes, you can view accuracy stats in reports."
+    },
+    {
+      "id": 38,
+      "question": "Does the AI keep learning automatically?",
+      "answer": "Yes, it retrains from new data over time."
+    },
+    {
+      "id": 39,
+      "question": "How does CyberRazor detect phishing?",
+      "answer": "It checks links, emails, and code for phishing signs."
+    },
+    {
+      "id": 40,
+      "question": "How does CyberRazor detect insider threats?",
+      "answer": "By tracking unusual user actions and access behavior."
+    },
+    {
+      "id": 41,
+      "question": "How does the AI classify a high-risk threat?",
+      "answer": "By score and confidence level (e.g., 90% = high)."
+    },
+    {
+      "id": 42,
+      "question": "What datasets were used to train the AI?",
+      "answer": "Public cybersecurity and malware datasets."
+    },
+    {
+      "id": 43,
+      "question": "Can I train the AI with my own company's data?",
+      "answer": "Yes, you can upload custom training data."
+    },
+    {
+      "id": 44,
+      "question": "How long does it take to retrain the model?",
+      "answer": "Usually a few minutes to hours based on size."
+    },
+    {
+      "id": 45,
+      "question": "Can CyberRazor's AI be updated manually?",
+      "answer": "Yes, admins can upload a new AI model."
+    },
+    {
+      "id": 46,
+      "question": "Does AI make mistakes sometimes?",
+      "answer": "Yes, AI can misclassify some activities."
+    },
+    {
+      "id": 47,
+      "question": "Can AI falsely flag a normal activity as suspicious?",
+      "answer": "Yes, it can happen — you can mark it as safe."
+    },
+    {
+      "id": 48,
+      "question": "How can I improve the accuracy of CyberRazor's AI?",
+      "answer": "Use clean, labeled, and recent data for training."
+    },
+    {
+      "id": 49,
+      "question": "What does a \"critical alert\" mean?",
+      "answer": "It means a high-severity threat that needs fast action."
+    },
+    {
+      "id": 50,
+      "question": "What should I do if I receive a high severity alert?",
+      "answer": "Follow the alert instructions or isolate the device."
+    },
+    {
+      "id": 51,
+      "question": "Can I filter alerts by device or user?",
+      "answer": "Yes, use the filter option on the dashboard."
+    },
+    {
+      "id": 52,
+      "question": "How do I mark an alert as resolved?",
+      "answer": "Click \"Resolve\" in the alert details."
+    },
+    {
+      "id": 53,
+      "question": "How do I ignore false positives?",
+      "answer": "Mark them as \"Safe\" in the system."
+    },
+    {
+      "id": 54,
+      "question": "How often are new alerts checked?",
+      "answer": "Every few seconds automatically."
+    },
+    {
+      "id": 55,
+      "question": "How does CyberRazor respond to threats automatically?",
+      "answer": "It can quarantine files or block IPs using playbooks."
+    },
+    {
+      "id": 56,
+      "question": "Can I manually approve or deny a response action?",
+      "answer": "Yes, you can review and confirm actions."
+    },
+    {
+      "id": 57,
+      "question": "Can I view the details of each detected incident?",
+      "answer": "Yes, open the alert to see full details."
+    },
+    {
+      "id": 58,
+      "question": "What information is included in a CyberRazor alert?",
+      "answer": "File path, device, type, severity, and AI reason."
+    },
+    {
+      "id": 59,
+      "question": "Can I download an alert report in PDF or CSV?",
+      "answer": "Yes, you can export reports anytime."
+    },
+    {
+      "id": 60,
+      "question": "What is a \"playbook\" and how can I make one?",
+      "answer": "A playbook is an automated action plan; create it in settings."
+    },
+    {
+      "id": 61,
+      "question": "How many playbooks can I create?",
+      "answer": "As many as you need."
+    },
+    {
+      "id": 62,
+      "question": "Can I disable automation for testing?",
+      "answer": "Yes, turn off automation in admin settings."
+    },
+    {
+      "id": 63,
+      "question": "Can I schedule alerts to appear only during certain hours?",
+      "answer": "Yes, you can set alert timings."
+    },
+    {
+      "id": 64,
+      "question": "What do the graphs and charts in the dashboard mean?",
+      "answer": "They show threat trends, device health, and response times."
+    },
+    {
+      "id": 65,
+      "question": "How can I customize my dashboard layout?",
+      "answer": "Drag and arrange widgets as you like."
+    },
+    {
+      "id": 66,
+      "question": "Can I change the color scheme of the dashboard?",
+      "answer": "Yes, choose from themes in settings."
+    },
+    {
+      "id": 67,
+      "question": "How can I search for a specific alert or user?",
+      "answer": "Use the search bar on the dashboard."
+    },
+    {
+      "id": 68,
+      "question": "How do I add new widgets or analytics to the dashboard?",
+      "answer": "Go to \"Customize Dashboard\" and add widgets."
+    },
+    {
+      "id": 69,
+      "question": "How do I refresh data without reloading the whole app?",
+      "answer": "Click the refresh button or auto-sync toggle."
+    },
+    {
+      "id": 70,
+      "question": "Can I view logs in real-time?",
+      "answer": "Yes, through the live log viewer."
+    },
+    {
+      "id": 71,
+      "question": "How can I add multiple users or admins?",
+      "answer": "Admins can add them from the user management page."
+    },
+    {
+      "id": 72,
+      "question": "Can I export dashboard data for reports?",
+      "answer": "Yes, export as PDF or CSV."
+    },
+    {
+      "id": 73,
+      "question": "How can I change my organization's logo on the dashboard?",
+      "answer": "Upload it in the admin settings."
+    },
+    {
+      "id": 74,
+      "question": "How can I back up MongoDB data?",
+      "answer": "Use mongodump or the backup option in Atlas."
+    },
+    {
+      "id": 75,
+      "question": "What if MongoDB shows a connection timeout error?",
+      "answer": "Check your URI, network, or firewall."
+    },
+    {
+      "id": 76,
+      "question": "Can MongoDB handle thousands of alerts per day?",
+      "answer": "Yes, it is designed for large data loads."
+    },
+    {
+      "id": 77,
+      "question": "How do I clear old data from MongoDB?",
+      "answer": "Run cleanup commands or use automated scripts."
+    },
+    {
+      "id": 78,
+      "question": "Can I connect multiple MongoDB clusters?",
+      "answer": "Yes, configure them in your backend."
+    },
+    {
+      "id": 79,
+      "question": "How do I secure MongoDB from external access?",
+      "answer": "Enable authentication and IP whitelisting."
+    },
+    {
+      "id": 80,
+      "question": "How can I view stored alerts from MongoDB directly?",
+      "answer": "Use MongoDB Compass or command line."
+    },
+    {
+      "id": 81,
+      "question": "Can MongoDB automatically archive old alerts?",
+      "answer": "Yes, with automated archiving scripts."
+    },
+    {
+      "id": 82,
+      "question": "What happens if MongoDB runs out of memory?",
+      "answer": "Performance slows; upgrade your cluster."
+    },
+    {
+      "id": 83,
+      "question": "How do I verify that my alerts are stored correctly?",
+      "answer": "Check collections and logs in MongoDB."
+    },
+    {
+      "id": 84,
+      "question": "How do I open the CyberRazor app in Expo Go?",
+      "answer": "Scan the QR code from Expo and open the project."
+    },
+    {
+      "id": 85,
+      "question": "My app is not loading in Expo Go — what's wrong?",
+      "answer": "Restart Expo or check network connection."
+    },
+    {
+      "id": 86,
+      "question": "How do I refresh the Expo Go project?",
+      "answer": "Swipe down or press reload in Expo."
+    },
+    {
+      "id": 87,
+      "question": "Can I run the app on both Android and iOS?",
+      "answer": "Yes, it supports both."
+    },
+    {
+      "id": 88,
+      "question": "How do I test push notifications in Expo?",
+      "answer": "Use Expo's test push notification tool."
+    },
+    {
+      "id": 89,
+      "question": "How can I connect the app to my local backend?",
+      "answer": "Change the API base URL to your local IP."
+    },
+    {
+      "id": 90,
+      "question": "What if the app shows a \"Network Error\"?",
+      "answer": "Check backend, Wi-Fi, or server URL."
+    },
+    {
+      "id": 91,
+      "question": "Can I use CyberRazor offline in Expo?",
+      "answer": "Some parts yes, but AI scans need internet."
+    },
+    {
+      "id": 92,
+      "question": "How do I update the app without reinstallation?",
+      "answer": "Pull latest code and reload in Expo."
+    },
+    {
+      "id": 93,
+      "question": "Can I share the app link with teammates through Expo?",
+      "answer": "Yes, share the Expo project link."
+    },
+    {
+      "id": 94,
+      "question": "How do I protect my mobile phone from hackers?",
+      "answer": "Use strong passwords and keep your apps updated."
+    },
+    {
+      "id": 95,
+      "question": "How do I know if my data was breached?",
+      "answer": "CyberRazor will alert you if unusual activity appears."
+    },
+    {
+      "id": 96,
+      "question": "What should I do if I click on a phishing link?",
+      "answer": "Disconnect, change passwords, and scan for threats."
+    },
+    {
+      "id": 97,
+      "question": "How do I secure my email from cyber attacks?",
+      "answer": "Use 2FA and avoid unknown links."
+    },
+    {
+      "id": 98,
+      "question": "What is the safest way to browse the internet?",
+      "answer": "Use HTTPS sites and a trusted VPN."
+    },
+    {
+      "id": 99,
+      "question": "How do I create a strong password?",
+      "answer": "Use long, unique passwords with letters, numbers, and symbols."
+    },
+    {
+      "id": 100,
+      "question": "What is the difference between malware and virus?",
+      "answer": "A virus is a type of malware that attaches to files and spreads when those files run. Malware is any harmful software (virus, trojan, ransomware, spyware) that damages or steals data."
+    },
+    {
+      "id": 101,
+      "question": "How do hackers steal information?",
+      "answer": "They use tricks like phishing emails, fake websites, malware, or by exploiting weak passwords and unpatched software."
+    },
+    {
+      "id": 102,
+      "question": "What are some common signs of a hacked system?",
+      "answer": "Look for slow performance, unknown programs, frequent crashes, odd network traffic, or changed files and passwords."
+    },
+    {
+      "id": 103,
+      "question": "What is a brute force attack?",
+      "answer": "Hackers try many password combinations automatically until one works; weak or common passwords are easy to break."
+    },
+    {
+      "id": 104,
+      "question": "What should I do during a ransomware attack?",
+      "answer": "Disconnect from the network, isolate infected machines, report to your team, and restore from backups — do not pay the ransom if possible."
+    },
+    {
+      "id": 105,
+      "question": "What is the best antivirus for protection?",
+      "answer": "Use a well-known, regularly updated antivirus like Bitdefender, Kaspersky, or Windows Defender; keep it enabled and updated."
+    },
+    {
+      "id": 106,
+      "question": "What is a cybersecurity incident?",
+      "answer": "Any event that harms or risks your systems, data, or services — for example, a breach, malware infection, or data leak."
+    },
+    {
+      "id": 107,
+      "question": "Why are regular software updates important?",
+      "answer": "Updates fix bugs and security holes that attackers use, so installing them keeps systems safer."
+    },
+    {
+      "id": 108,
+      "question": "How can I secure my organization's data?",
+      "answer": "Use strong access controls, encryption, regular backups, and monitor for unusual activity."
+    },
+    {
+      "id": 109,
+      "question": "What is endpoint security?",
+      "answer": "Protection for individual devices (laptops, phones, servers) that prevents malware and unauthorized access."
+    },
+    {
+      "id": 110,
+      "question": "How can I recognize a social engineering attack?",
+      "answer": "Be careful with urgent requests for passwords or money, unexpected links, or callers asking for private info — these are signs of manipulation."
+    },
+    {
+      "id": 111,
+      "question": "What is a Security Operations Center (SOC)?",
+      "answer": "A SOC is a team and facility that monitors security alerts, investigates incidents, and responds to threats."
+    },
+    {
+      "id": 112,
+      "question": "How does CyberRazor improve SOC performance?",
+      "answer": "It automates alert analysis and responses, reduces false positives, and gives analysts fast AI-driven context."
+    },
+    {
+      "id": 113,
+      "question": "How can SOC analysts use CyberRazor?",
+      "answer": "They use it to view alerts, run playbooks, assign cases, and get AI explanations to speed investigations."
+    },
+    {
+      "id": 114,
+      "question": "What's the difference between SIEM and SOAR?",
+      "answer": "SIEM collects and stores logs and events; SOAR adds automation and orchestration to investigate and respond to those events."
+    },
+    {
+      "id": 115,
+      "question": "How does CyberRazor integrate with SIEM tools?",
+      "answer": "It receives logs and alerts from SIEMs (like Wazuh), analyzes them with AI, and can send actions back to the SIEM or agent."
+    },
+    {
+      "id": 116,
+      "question": "What metrics does CyberRazor track for incidents?",
+      "answer": "It tracks severity, time to detect (MTTD), time to respond (MTTR), number of incidents, and AI confidence scores."
+    },
+    {
+      "id": 117,
+      "question": "Can CyberRazor correlate multiple alerts into one incident?",
+      "answer": "Yes — it groups related alerts into a single incident to reduce noise and show the full attack story."
+    },
+    {
+      "id": 118,
+      "question": "Can CyberRazor send data to TheHive or other platforms?",
+      "answer": "Yes — it can create cases or send alert data to tools like TheHive via APIs."
+    },
+    {
+      "id": 119,
+      "question": "How does CyberRazor prioritize alerts?",
+      "answer": "It uses severity levels and AI confidence to rank alerts so analysts see the most dangerous ones first."
+    },
+    {
+      "id": 120,
+      "question": "Can I connect third-party tools to CyberRazor?",
+      "answer": "Yes — you can add integrations via APIs, webhooks, or built-in connectors for services like Slack, email, or TheHive."
+    },
+    {
+      "id": 121,
+      "question": "Will CyberRazor support other databases in the future?",
+      "answer": "Yes — it's possible to add support for SQL databases or other NoSQL stores by changing backend connectors."
+    },
+    {
+      "id": 122,
+      "question": "Can we integrate machine learning APIs like OpenAI or Hugging Face?",
+      "answer": "Yes — CyberRazor can call external ML APIs to enhance analysis or use custom models for threat detection."
+    },
+    {
+      "id": 123,
+      "question": "Will CyberRazor support mobile biometrics for login?",
+      "answer": "Yes — future updates plan to add biometric login (fingerprint/face) for mobile app authentication."
+    },
+    {
+      "id": 124,
+      "question": "Can I connect cloud logs from AWS or Azure?",
+      "answer": "No you cannot forward cloud logs from AWS CloudWatch or Azure Monitor into CyberRazor for analysis."
+    },
+    {
+      "id": 125,
+      "question": "Will CyberRazor include a built-in threat intelligence dashboard?",
+      "answer": "Yes — the project plans a dashboard that shows feeds, IOC lists, and threat trends for better context."
+    },
+    {
+      "id": 126,
+      "question": "Can I schedule automatic AI retraining?",
+      "answer": "Yes — admins can set periodic retraining jobs using new labeled data to keep the model up to date."
+    },
+    {
+      "id": 127,
+      "question": "Does CyberRazor support API key authentication?",
+      "answer": "Yes — external services and users can use API keys or tokens to access specific APIs securely."
+    },
+    {
+      "id": 128,
+      "question": "Can I host CyberRazor on my own cloud server?",
+      "answer": "Yes — you can self-host backend, database, and frontend on your cloud or on-prem servers."
+    },
+    {
+      "id": 129,
+      "question": "Will CyberRazor have role-based access control in the next version?",
+      "answer": "Yes — RBAC is planned so admins can assign specific roles and limits to users."
+    },
+    {
+      "id": 130,
+      "question": "Can I integrate CyberRazor with email or Slack alerts?",
+      "answer": "Yes — you can configure email SMTP or Slack webhooks to receive notifications."
+    },
+    {
+      "id": 131,
+      "question": "What is CyberRazor?",
+      "answer": "CyberRazor is an AI-powered SOAR system that detects threats, runs automated responses, and helps analysts handle incidents faster."
+    },
+    {
+      "id": 132,
+      "question": "Who developed CyberRazor?",
+      "answer": "It was developed as a final year project by students from Jinnah University for Women."
+    },
+    {
+      "id": 133,
+      "question": "What is the purpose of CyberRazor?",
+      "answer": "To give fast, automated threat detection and response using AI and open-source tools at low cost."
+    },
+    {
+      "id": 134,
+      "question": "How does CyberRazor work?",
+      "answer": "It collects logs via agents (Wazuh), sends suspicious items to AI for analysis, and triggers playbooks to respond."
+    },
+    {
+      "id": 135,
+      "question": "What technologies does CyberRazor use?",
+      "answer": "It uses FastAPI (backend), React (frontend), MongoDB (database), Wazuh (endpoint), and Gemini AI for analysis."
+    },
+    {
+      "id": 136,
+      "question": "Is CyberRazor a mobile app or web app?",
+      "answer": "It is both — a web dashboard for full control and a mobile app for on-the-go alerts and monitoring."
+    },
+    {
+      "id": 137,
+      "question": "Do CyberRazor use AI?",
+      "answer": "Yes — AI analyzes files and logs, assigns threat scores, and explains why something is suspicious."
+    },
+    {
+      "id": 138,
+      "question": "Can CyberRazor detect phishing attacks?",
+      "answer": "Yes — it checks email headers, URLs, and link content using models to detect phishing patterns."
+    },
+    {
+      "id": 139,
+      "question": "What kind of alerts does CyberRazor detect?",
+      "answer": "It detects malware, suspicious file changes, phishing, unusual logins, and abnormal behavior patterns."
+    },
+    {
+      "id": 140,
+      "question": "How does CyberRazor send alerts?",
+      "answer": "Alerts appear on the dashboard, via email, and as mobile push notifications depending on settings."
+    },
+    {
+      "id": 141,
+      "question": "What is Wazuh?",
+      "answer": "Wazuh is an open-source security platform that monitors endpoints, collects logs, and detects threats."
+    },
+    {
+      "id": 142,
+      "question": "How is Wazuh integrated with CyberRazor?",
+      "answer": "Wazuh sends alerts and logs to CyberRazor, which then adds AI analysis and automated responses."
+    },
+    {
+      "id": 143,
+      "question": "Where are Wazuh alerts stored in CyberRazor?",
+      "answer": "Alerts and analysis results are stored as documents in MongoDB collections (like \"THREATS\" or \"SCAN_RESULTS\")."
+    },
+    {
+      "id": 144,
+      "question": "Can CyberRazor visualize Wazuh alerts?",
+      "answer": "Yes — alerts are shown in charts, tables, and timeline views on the dashboard for easy review."
+    },
+    {
+      "id": 145,
+      "question": "Does CyberRazor use Wazuh agents?",
+      "answer": "Yes — Wazuh agents run on endpoints to collect logs and monitor system behavior for CyberRazor."
+    },
+    {
+      "id": 146,
+      "question": "What database does CyberRazor use?",
+      "answer": "CyberRazor uses MongoDB (Atlas recommended) to store flexible, scalable security data."
+    },
+    {
+      "id": 147,
+      "question": "Why MongoDB is used in CyberRazor?",
+      "answer": "Because it handles varied alert data well, scales easily, and supports fast queries for real-time apps."
+    },
+    {
+      "id": 148,
+      "question": "Can I use PostgreSQL instead of MongoDB?",
+      "answer": "Yes, but you'll need to change backend data models and queries to match SQL structures."
+    },
+    {
+      "id": 149,
+      "question": "How are AI predictions stored?",
+      "answer": "Each prediction is saved with fields like verdict, confidence score, reason text, timestamp, and related file or event details."
+    },
+    {
+      "id": 150,
+      "question": "Can I connect my own database to CyberRazor?",
+      "answer": "Yes — you can configure the backend to point to your DB by updating connection settings and adjusting schemas if needed."
+    },
+    {
+      "id": 151,
+      "question": "What framework is used for the CyberRazor mobile app?",
+      "answer": "CyberRazor's mobile app is built using React Native with Expo Go This helps developers create one app that runs smoothly on both Android and iOS with a single codebase."
+    },
+    {
+      "id": 152,
+      "question": "Can CyberRazor run on Android?",
+      "answer": "Yes. The mobile app is fully compatible with Android. You can use it to monitor alerts, manage threats, and get notifications in real time."
+    },
+    {
+      "id": 153,
+      "question": "What is Expo Go?",
+      "answer": "Expo Go is a mobile testing tool for React Native apps. It allows you to open and test the CyberRazor app instantly by scanning a QR code, without needing to install it permanently."
+    },
+    {
+      "id": 154,
+      "question": "Can I customize the CyberRazor UI?",
+      "answer": "Yes. You can change themes, dashboard layouts, and widgets. The interface is made flexible so users can adjust the view according to their preferences."
+    },
+    {
+      "id": 155,
+      "question": "Does CyberRazor have dark mode?",
+      "answer": "Yes. Dark mode is available for better visibility and less eye strain, especially for users working long hours."
+    },
+    {
+      "id": 156,
+      "question": "How does CyberRazor detect threats?",
+      "answer": "It collects data from devices through Wazuh and uses AI models to analyze it. The AI looks for unusual activities or known malicious patterns to detect threats early."
+    },
+    {
+      "id": 157,
+      "question": "Can CyberRazor respond automatically to incidents?",
+      "answer": "Yes. It has automated playbooks that take actions such as quarantining files, blocking IP addresses, or alerting admins—without waiting for manual input."
+    },
+    {
+      "id": 158,
+      "question": "What are playbooks in CyberRazor?",
+      "answer": "Playbooks are pre-defined automated workflows that tell the system what to do when a specific threat appears. For example, if ransomware is detected, the playbook might isolate the device and notify the admin immediately."
+    },
+    {
+      "id": 159,
+      "question": "Can CyberRazor retrain AI models?",
+      "answer": "Yes. The AI can be retrained using new or company-specific data to improve detection accuracy and stay up to date with new attack patterns."
+    },
+    {
+      "id": 160,
+      "question": "How does CyberRazor ensure data security?",
+      "answer": "All communication is encrypted, passwords are hashed, and access is protected with secure tokens. No user data is stored in plain text, keeping information private."
+    },
+    {
+      "id": 161,
+      "question": "Can multiple users use CyberRazor?",
+      "answer": "Yes. It supports multiple users and roles such as admin, analyst, or viewer. Each user gets secure login credentials."
+    },
+    {
+      "id": 162,
+      "question": "Can I get reports in CyberRazor?",
+      "answer": "Yes. You can generate and download reports in PDF or CSV format showing threats, response times, and AI accuracy."
+    },
+    {
+      "id": 163,
+      "question": "Does CyberRazor require internet connection?",
+      "answer": "Yes, mostly. The AI analysis and integrations like Wazuh and Gemini API need the internet, but local scans can work offline."
+    },
+    {
+      "id": 164,
+      "question": "Can CyberRazor be deployed on AWS?",
+      "answer": "Yes. It can run easily on cloud platforms like AWS, Azure, or Google Cloud using Docker or virtual servers."
+    },
+    {
+      "id": 165,
+      "question": "Is CyberRazor open source?",
+      "answer": "Yes. It's designed as an open-source project so others can use, modify, or improve it freely."
+    },
+    {
+      "id": 166,
+      "question": "What is CyberRazor?",
+      "answer": "CyberRazor is an AI-based cybersecurity system that automatically detects, analyzes, and responds to threats. It combines SOAR features with machine learning."
+    },
+    {
+      "id": 167,
+      "question": "What is the goal of CyberRazor?",
+      "answer": "The goal is to help organizations move from reacting to attacks to preventing them using automation and intelligent analysis."
+    },
+    {
+      "id": 168,
+      "question": "What makes CyberRazor unique?",
+      "answer": "It combines open-source tools like Wazuh with AI and integrates everything from detection to response into one easy-to-use platform for developers and security teams."
+    },
+    {
+      "id": 169,
+      "question": "Who developed CyberRazor?",
+      "answer": "It was created by students from Jinnah University for Women: Vira Siddiqui, Nisa Iqbal, Ramla Junaid, and Hiba Sharif as their Final Year Project."
+    },
+    {
+      "id": 170,
+      "question": "What operating system does CyberRazor run on?",
+      "answer": "It can run on Windows, Linux, and macOS. The backend works on servers, while the frontend runs on any browser or mobile system."
+    },
+    {
+      "id": 171,
+      "question": "What programming languages are used in CyberRazor?",
+      "answer": "Python for backend (FastAPI), JavaScript for frontend (React), and Node.js/TypeScript for some modules."
+    },
+    {
+      "id": 172,
+      "question": "How does CyberRazor help organizations?",
+      "answer": "It reduces response time, lowers security costs, and makes it easier to manage incidents through automation and smart analysis."
+    },
+    {
+      "id": 173,
+      "question": "What is Wazuh?",
+      "answer": "Wazuh is an open-source security monitoring tool that tracks logs, detects intrusions, and reports suspicious system changes in real time."
+    },
+    {
+      "id": 174,
+      "question": "How is Wazuh integrated into CyberRazor?",
+      "answer": "Wazuh agents send alerts and endpoint data to CyberRazor, which then uses AI to analyze and respond to them automatically."
+    },
+    {
+      "id": 175,
+      "question": "What types of alerts does Wazuh generate?",
+      "answer": "It detects file changes, unauthorized logins, malware activity, and system configuration issues."
+    },
+    {
+      "id": 176,
+      "question": "How does CyberRazor process Wazuh alerts?",
+      "answer": "The backend receives Wazuh alerts, sends them to the AI model for review, and then updates the dashboard with a severity score and response action."
+    },
+    {
+      "id": 177,
+      "question": "Can CyberRazor respond automatically to Wazuh alerts?",
+      "answer": "Yes. It can isolate devices, delete infected files, or notify admins when Wazuh detects a serious issue."
+    },
+    {
+      "id": 178,
+      "question": "What are playbooks in CyberRazor?",
+      "answer": "Playbooks are action rules that tell CyberRazor how to handle specific incidents automatically—like blocking IPs or sending alerts."
+    },
+    {
+      "id": 179,
+      "question": "Can I visualize Wazuh alerts in the CyberRazor dashboard?",
+      "answer": "Yes. All Wazuh alerts are shown in graphs, charts, and lists inside the dashboard for quick monitoring."
+    },
+    {
+      "id": 180,
+      "question": "How does CyberRazor classify alerts?",
+      "answer": "Alerts are classified by severity—Low, Medium, High, or Critical—based on AI confidence and threat type."
+    },
+    {
+      "id": 181,
+      "question": "What database does CyberRazor use?",
+      "answer": "CyberRazor uses MongoDB Atlas, a cloud-based NoSQL database for storing user info, threats, and scan results."
+    },
+    {
+      "id": 182,
+      "question": "Why was MongoDB chosen for CyberRazor?",
+      "answer": "Because it's flexible, fast, and handles large volumes of different cybersecurity data easily."
+    },
+    {
+      "id": 183,
+      "question": "How are alerts stored in MongoDB?",
+      "answer": "Each alert is stored as a document with fields like timestamp, severity, AI reason, and related device ID."
+    },
+    {
+      "id": 184,
+      "question": "Can MongoDB handle large alert data?",
+      "answer": "Yes. It's made for scalability and can manage thousands of records per second."
+    },
+    {
+      "id": 185,
+      "question": "How can I connect MongoDB with CyberRazor?",
+      "answer": "Add your MongoDB URI to the backend configuration or .env file before running the server."
+    },
+    {
+      "id": 186,
+      "question": "How is AI data stored in MongoDB?",
+      "answer": "AI results are saved with threat scores, AI confidence, and explanation text for each analysis."
+    },
+    {
+      "id": 187,
+      "question": "Is MongoDB suitable for real-time cybersecurity apps?",
+      "answer": "Yes. It's ideal for storing and fetching alerts quickly in real time."
+    },
+    {
+      "id": 188,
+      "question": "What frontend framework does CyberRazor use?",
+      "answer": "It uses React.js, which provides a fast and dynamic dashboard interface."
+    },
+    {
+      "id": 189,
+      "question": "What is Expo Go used for?",
+      "answer": "Expo Go is used to preview and test the mobile app instantly during development."
+    },
+    {
+      "id": 190,
+      "question": "Can I use CyberRazor on mobile?",
+      "answer": "Yes, you can manage alerts, view reports, and get notifications from your phone."
+    },
+    {
+      "id": 191,
+      "question": "How does the React dashboard work?",
+      "answer": "It connects to the backend API, receives real-time alerts through WebSocket, and updates charts automatically."
+    },
+    {
+      "id": 192,
+      "question": "What APIs does the CyberRazor frontend use?",
+      "answer": "It uses REST APIs and WebSockets to communicate with the backend securely."
+    },
+    {
+      "id": 193,
+      "question": "Does the CyberRazor app support notifications?",
+      "answer": "Yes. It sends push notifications and emails for new or critical threats."
+    },
+    {
+      "id": 194,
+      "question": "Can I customize the UI in the CyberRazor app?",
+      "answer": "Yes, you can change layouts, choose colors, and adjust widgets for your team's needs."
+    },
+    {
+      "id": 195,
+      "question": "What is the advantage of using React in CyberRazor?",
+      "answer": "React makes the dashboard fast, responsive, and easy to maintain with reusable components."
+    },
+    {
+      "id": 196,
+      "question": "What AI models are used in CyberRazor?",
+      "answer": "It uses Google's Gemini AI API and trained machine learning models for threat detection."
+    },
+    {
+      "id": 197,
+      "question": "How does the AI model learn to detect threats?",
+      "answer": "It studies old attack data, code patterns, and malware samples to recognize new threats."
+    },
+    {
+      "id": 198,
+      "question": "What types of threats can CyberRazor detect?",
+      "answer": "It can detect malware, ransomware, phishing, insider misuse, and suspicious file changes."
+    },
+    {
+      "id": 199,
+      "question": "Can CyberRazor detect zero-day attacks?",
+      "answer": "Yes, its AI analyzes behavior and patterns to catch new or unknown threats."
+    },
+    {
+      "id": 200,
+      "question": "How accurate is CyberRazor's AI detection?",
+      "answer": "It's highly accurate but not perfect; accuracy improves as more data is trained."
+    },
+    {
+      "id": 201,
+      "question": "What is a zero-day attack?",
+      "answer": "It's a new, unknown attack that exploits software weaknesses before developers fix them. CyberRazor's AI helps spot such behavior patterns early."
+    },
+    {
+      "id": 202,
+      "question": "How does AI help in cybersecurity?",
+      "answer": "AI quickly studies large data, spots unusual activity, and blocks attacks faster than humans could."
+    },
+    {
+      "id": 203,
+      "question": "Can CyberRazor prevent data leaks?",
+      "answer": "Yes, it detects unusual data transfers and alerts admins before leaks happen."
+    },
+    {
+      "id": 204,
+      "question": "What is phishing?",
+      "answer": "Phishing is when attackers trick people into sharing personal information through fake emails or links."
+    },
+    {
+      "id": 205,
+      "question": "How does CyberRazor detect phishing?",
+      "answer": "It checks emails, URLs, and domains for suspicious words or patterns using AI."
+    },
+    {
+      "id": 206,
+      "question": "What is a firewall?",
+      "answer": "A firewall blocks unwanted network traffic and protects your system from hackers."
+    },
+    {
+      "id": 207,
+      "question": "Does CyberRazor include a firewall?",
+      "answer": "No, but it can connect to firewalls and monitor their alerts."
+    },
+    {
+      "id": 208,
+      "question": "How does CyberRazor detect insider threats?",
+      "answer": "By tracking user actions like file access or login behavior that looks unusual."
+    },
+    {
+      "id": 209,
+      "question": "What is behavior-based detection?",
+      "answer": "It means identifying threats based on actions instead of just known virus files."
+    },
+    {
+      "id": 210,
+      "question": "How does AI detect anomalies?",
+      "answer": "AI compares normal user activity with current behavior and alerts if something seems odd."
+    },
+    {
+      "id": 211,
+      "question": "What is a machine learning model?",
+      "answer": "It's a computer program that learns from data to make predictions or decisions automatically."
+    },
+    {
+      "id": 212,
+      "question": "How is AI trained in CyberRazor?",
+      "answer": "The AI is trained using cybersecurity datasets containing both safe and attack samples."
+    },
+    {
+      "id": 213,
+      "question": "Can the AI improve with more data?",
+      "answer": "Yes. The more clean and labeled data you give it, the smarter it becomes."
+    },
+    {
+      "id": 214,
+      "question": "What is the accuracy rate of the AI model?",
+      "answer": "It's around 90–95%, depending on the training data quality."
+    },
+    {
+      "id": 215,
+      "question": "Can CyberRazor's AI detect fake logins?",
+      "answer": "Yes, it monitors unusual login times, devices, or IPs."
+    },
+    {
+      "id": 216,
+      "question": "Does the system send automatic emails for alerts?",
+      "answer": "Yes. Email notifications are sent when critical or high-severity alerts appear."
+    },
+    {
+      "id": 217,
+      "question": "How can I change my email alert settings?",
+      "answer": "You can manage them in your user profile under \"Notifications.\""
+    },
+    {
+      "id": 218,
+      "question": "Can I get alerts on mobile as well?",
+      "answer": "Yes, push notifications appear instantly on your phone."
+    },
+    {
+      "id": 219,
+      "question": "How can I change my password?",
+      "answer": "Go to your profile settings and click \"Change Password.\""
+    },
+    {
+      "id": 220,
+      "question": "What should I do if I forget my password?",
+      "answer": "Click \"Forgot Password\" on the login page to reset it via email."
+    },
+    {
+      "id": 221,
+      "question": "Can I add multi-factor authentication?",
+      "answer": "Yes, two-factor authentication (2FA) can be enabled for extra security."
+    },
+    {
+      "id": 222,
+      "question": "How can I log out of all sessions?",
+      "answer": "Use the \"Logout All Devices\" option in your account settings."
+    },
+    {
+      "id": 223,
+      "question": "Can multiple admins manage the same system?",
+      "answer": "Yes, CyberRazor allows multiple admins with role-based permissions."
+    },
+    {
+      "id": 224,
+      "question": "What is role-based access control (RBAC)?",
+      "answer": "It lets you assign roles like Admin, Analyst, or Viewer with specific access rights."
+    },
+    {
+      "id": 225,
+      "question": "Can I remove a user from my organization?",
+      "answer": "Yes, admins can delete or deactivate users from the dashboard."
+    },
+    {
+      "id": 226,
+      "question": "Can CyberRazor integrate with cloud services?",
+      "answer": "Yes, it can connect with AWS, Azure, or GCP to collect logs and security data."
+    },
+    {
+      "id": 227,
+      "question": "What kind of logs can CyberRazor read?",
+      "answer": "It can analyze system, network, application, and security logs."
+    },
+    {
+      "id": 228,
+      "question": "How often does the dashboard refresh data?",
+      "answer": "The dashboard refreshes every few seconds or in real time via WebSocket."
+    },
+    {
+      "id": 229,
+      "question": "Can I pause live updates?",
+      "answer": "Yes, you can turn off real-time updates temporarily."
+    },
+    {
+      "id": 230,
+      "question": "How can I export all alert data?",
+      "answer": "You can export alerts as CSV or PDF files from the dashboard."
+    },
+    {
+      "id": 231,
+      "question": "Can I generate weekly or monthly reports?",
+      "answer": "Yes, you can choose the date range and download detailed reports."
+    },
+    {
+      "id": 232,
+      "question": "What is a real-time dashboard?",
+      "answer": "It's a live view showing current alerts, system status, and AI analysis instantly."
+    },
+    {
+      "id": 233,
+      "question": "Can I customize widgets on the dashboard?",
+      "answer": "Yes, you can add, remove, or resize widgets according to your needs."
+    },
+    {
+      "id": 234,
+      "question": "Can I monitor multiple devices?",
+      "answer": "Yes, CyberRazor supports multiple endpoints through Wazuh agents."
+    },
+    {
+      "id": 235,
+      "question": "How do I connect a new device to CyberRazor?",
+      "answer": "Install the Wazuh agent on the device and link it with your server key."
+    },
+    {
+      "id": 236,
+      "question": "Can I track device health?",
+      "answer": "Yes, the dashboard shows CPU, memory, and log health of connected devices."
+    },
+    {
+      "id": 237,
+      "question": "What is the backend of CyberRazor built with?",
+      "answer": "The backend is built using FastAPI (Python) for fast and scalable performance."
+    },
+    {
+      "id": 238,
+      "question": "How do I start the backend server?",
+      "answer": "Run the command uvicorn main:app --reload in your terminal."
+    },
+    {
+      "id": 239,
+      "question": "Can I deploy the backend online?",
+      "answer": "Yes, you can deploy it on any cloud or VPS with Python support."
+    },
+    {
+      "id": 240,
+      "question": "What is an API endpoint?",
+      "answer": "It's a URL where the frontend or app connects to get or send data."
+    },
+    {
+      "id": 241,
+      "question": "How can I test if my backend is working?",
+      "answer": "Open the API URL in a browser or use Postman to check responses."
+    },
+    {
+      "id": 242,
+      "question": "What is the frontend made with?",
+      "answer": "The frontend uses React.js, a JavaScript library for building interfaces."
+    },
+    {
+      "id": 243,
+      "question": "How does the frontend talk to the backend?",
+      "answer": "It uses REST API calls and WebSockets for real-time data."
+    },
+    {
+      "id": 244,
+      "question": "What library is used for charts and graphs?",
+      "answer": "CyberRazor uses Recharts, a React chart library."
+    },
+    {
+      "id": 245,
+      "question": "Can I change the color or theme of charts?",
+      "answer": "Yes, you can customize chart styles in the code."
+    },
+    {
+      "id": 246,
+      "question": "How does the WebSocket work in CyberRazor?",
+      "answer": "It keeps a live connection so new alerts appear instantly without reloading."
+    },
+    {
+      "id": 247,
+      "question": "What is JWT token in login?",
+      "answer": "JWT (JSON Web Token) is a secure token used to verify user identity."
+    },
+    {
+      "id": 248,
+      "question": "How is login security handled?",
+      "answer": "Passwords are hashed, and tokens are used instead of storing plain passwords."
+    },
+    {
+      "id": 249,
+      "question": "Can I reset my API keys?",
+      "answer": "Yes, admins can generate new API keys anytime."
+    },
+    {
+      "id": 250,
+      "question": "What if my API key gets leaked?",
+      "answer": "Immediately revoke it and create a new one from settings."
+    },
+    {
+      "id": 251,
+      "question": "What programming language powers the backend AI?",
+      "answer": "Python is used because it supports machine learning libraries like TensorFlow and scikit-learn."
+    },
+    {
+      "id": 252,
+      "question": "What kind of machine learning model does CyberRazor use?",
+      "answer": "It uses classification models that detect if an event is safe or malicious."
+    },
+    {
+      "id": 253,
+      "question": "What is a dataset in machine learning?",
+      "answer": "A dataset is a collection of examples used to train or test AI models."
+    },
+    {
+      "id": 254,
+      "question": "What types of datasets are used in CyberRazor?",
+      "answer": "Public cybersecurity datasets like CICIDS and malware samples."
+    },
+    {
+      "id": 255,
+      "question": "Can I upload my own dataset?",
+      "answer": "Yes, you can add your company's logs to retrain the AI."
+    },
+    {
+      "id": 256,
+      "question": "How often should I retrain the AI model?",
+      "answer": "Every few months or when new types of attacks appear."
+    },
+    {
+      "id": 257,
+      "question": "What is model accuracy?",
+      "answer": "It shows how correct the AI predictions are, usually shown in percentage."
+    },
+    {
+      "id": 258,
+      "question": "Can I improve the AI accuracy?",
+      "answer": "Yes, by using more recent and labeled training data."
+    },
+    {
+      "id": 259,
+      "question": "What is false positive in AI detection?",
+      "answer": "It's when the AI flags something as dangerous, but it's actually safe."
+    },
+    {
+      "id": 260,
+      "question": "How can I reduce false positives?",
+      "answer": "By retraining the model and marking safe alerts correctly."
+    },
+    {
+      "id": 261,
+      "question": "What is a confusion matrix?",
+      "answer": "It's a table that shows how well the AI predicted results (true or false alerts)."
+    },
+    {
+      "id": 262,
+      "question": "Can CyberRazor's AI explain why it flagged something?",
+      "answer": "Yes, the AI gives a reason field explaining the decision."
+    },
+    {
+      "id": 263,
+      "question": "How does AI learn from mistake?",
+      "answer": "By retraining using feedback data labeled as correct or incorrect."
+    },
+    {
+      "id": 264,
+      "question": "Can I view AI logs?",
+      "answer": "Yes, the admin dashboard shows AI decision logs."
+    },
+    {
+      "id": 265,
+      "question": "How does CyberRazor perform incident response?",
+      "answer": "It follows automated playbooks that perform actions like blocking or isolating devices."
+    },
+    {
+      "id": 266,
+      "question": "What is an incident in CyberRazor?",
+      "answer": "An incident is any detected event that might harm the system."
+    },
+    {
+      "id": 267,
+      "question": "Can I assign incidents to team members?",
+      "answer": "Yes, in the case management section you can assign tasks."
+    },
+    {
+      "id": 268,
+      "question": "What is case management?",
+      "answer": "It's a system to track and manage all security incidents and actions."
+    },
+    {
+      "id": 269,
+      "question": "Can I close or reopen a case?",
+      "answer": "Yes, analysts can change a case's status anytime."
+    },
+    {
+      "id": 270,
+      "question": "How can I add notes to a case?",
+      "answer": "Open a case and use the \"Add Notes\" option for comments."
+    },
+    {
+      "id": 271,
+      "question": "Can I see incident response history?",
+      "answer": "Yes, each case shows full activity history."
+    },
+    {
+      "id": 272,
+      "question": "What is an automated playbook?",
+      "answer": "A script that runs automatically when a specific threat type is detected."
+    },
+    {
+      "id": 273,
+      "question": "Can I edit or delete playbooks?",
+      "answer": "Yes, admins can modify or remove playbooks anytime."
+    },
+    {
+      "id": 274,
+      "question": "Can I share playbooks between systems?",
+      "answer": "Yes, export and import playbooks as JSON files."
+    },
+    {
+      "id": 275,
+      "question": "Can CyberRazor integrate with TheHive?",
+      "answer": "Yes, it can send alerts and cases to TheHive for investigation."
+    },
+    {
+      "id": 276,
+      "question": "How does TheHive integration help?",
+      "answer": "It helps teams manage and analyze incidents in one place."
+    },
+    {
+      "id": 277,
+      "question": "What is API integration?",
+      "answer": "It means connecting two systems so they share data automatically."
+    },
+    {
+      "id": 278,
+      "question": "How can I test an API integration?",
+      "answer": "Use tools like Postman to send requests and see responses."
+    },
+    {
+      "id": 279,
+      "question": "Can CyberRazor send alerts to Slack or Discord?",
+      "answer": "Yes, through webhook integration."
+    },
+    {
+      "id": 280,
+      "question": "Can I use CyberRazor for personal systems?",
+      "answer": "Yes, it can monitor your PC or home network too."
+    },
+    {
+      "id": 281,
+      "question": "Is CyberRazor useful for small businesses?",
+      "answer": "Yes, it's made for both small and large organizations."
+    },
+    {
+      "id": 282,
+      "question": "Can it detect malware on USB drives?",
+      "answer": "Yes, if the system logs show new USB activity, it can alert you."
+    },
+    {
+      "id": 283,
+      "question": "Can CyberRazor detect network intrusions?",
+      "answer": "Yes, through Wazuh agents and AI behavior monitoring."
+    },
+    {
+      "id": 284,
+      "question": "Does it need antivirus to work?",
+      "answer": "It works alongside antivirus software for better protection."
+    },
+    {
+      "id": 285,
+      "question": "Can I schedule system scans?",
+      "answer": "Yes, you can set scan times through the dashboard."
+    },
+    {
+      "id": 286,
+      "question": "Does it scan emails too?",
+      "answer": "It analyzes email headers and links for phishing risks."
+    },
+    {
+      "id": 287,
+      "question": "What should I do if I get repeated alerts?",
+      "answer": "Check your system logs or mark recurring alerts as safe."
+    },
+    {
+      "id": 288,
+      "question": "Can I mute notifications temporarily?",
+      "answer": "Yes, turn off notifications in your profile for a set time."
+    },
+    {
+      "id": 289,
+      "question": "How do I delete old alerts?",
+      "answer": "Use the \"Clear History\" or delete option in the alerts page."
+    },
+    {
+      "id": 290,
+      "question": "Can I recover deleted alerts?",
+      "answer": "No, deleted alerts are permanently removed for privacy."
+    },
+    {
+      "id": 291,
+      "question": "What if CyberRazor dashboard is slow?",
+      "answer": "Clear cache, check backend connection, or refresh the page."
+    },
+    {
+      "id": 292,
+      "question": "What if AI module stops responding?",
+      "answer": "Restart the backend or check AI service logs."
+    },
+    {
+      "id": 293,
+      "question": "How do I update CyberRazor to a new version?",
+      "answer": "Pull the latest code from GitHub and restart the system."
+    },
+    {
+      "id": 294,
+      "question": "Can I backup my settings and data?",
+      "answer": "Yes, export data from MongoDB and backup .env files."
+    },
+    {
+      "id": 295,
+      "question": "How can I restore my backup?",
+      "answer": "Import MongoDB dump files and reapply configurations."
+    },
+    {
+      "id": 296,
+      "question": "What programming libraries are used in AI part?",
+      "answer": "TensorFlow, Pandas, NumPy, and Scikit-learn."
+    },
+    {
+      "id": 297,
+      "question": "Can I change AI model code?",
+      "answer": "Yes, developers can modify it in the backend folder."
+    },
+    {
+      "id": 298,
+      "question": "What is the best way to test CyberRazor?",
+      "answer": "Run simulated attacks or use test datasets to check alert accuracy."
+    },
+    {
+      "id": 299,
+      "question": "How can I contribute to CyberRazor?",
+      "answer": "You can fork the project, improve it, and submit pull requests."
+    },
+    {
+      "id": 300,
+      "question": "Is CyberRazor suitable for enterprise-level use?",
+      "answer": "Yes, it's scalable and can be expanded for large organizations."
+    },
+    {
+      "id": 301,
+      "question": "What makes CyberRazor different from other SOAR tools?",
+      "answer": "CyberRazor stands out because it combines open-source technology, AI-based threat detection, and automated playbooks all in one platform. Unlike expensive enterprise tools, it's free, lightweight, and customizable for students, researchers, and organizations. It connects tools like Wazuh and TheHive for complete security management."
+    },
+    {
+      "id": 302,
+      "question": "How does CyberRazor reduce response time during incidents?",
+      "answer": "It automates the process of analyzing alerts and applying solutions. When a threat appears, CyberRazor's playbooks instantly take predefined actions—like isolating a device or blocking an IP—without waiting for human input. This reduces the time between detection and action from minutes to seconds."
+    },
+    {
+      "id": 303,
+      "question": "How does CyberRazor improve efficiency for SOC teams?",
+      "answer": "CyberRazor minimizes manual tasks. Instead of checking every alert, the system filters false positives and highlights only real threats. It also organizes all cases, reports, and AI insights in one place, helping SOC analysts respond faster and with fewer errors."
+    },
+    {
+      "id": 304,
+      "question": "How does CyberRazor support compliance with data protection laws?",
+      "answer": "CyberRazor supports rules like GDPR and HIPAA by ensuring logs and data are encrypted, access is role-based, and user information is never shared. It helps organizations keep audit trails and maintain compliance documentation automatically."
+    },
+    {
+      "id": 305,
+      "question": "Can CyberRazor handle big data from multiple sources?",
+      "answer": "Yes. CyberRazor is built with MongoDB and FastAPI, which allow it to process and store large amounts of log data from different systems at once. It can analyze thousands of alerts per day without slowing down."
+    },
+    {
+      "id": 306,
+      "question": "What are the main components of CyberRazor?",
+      "answer": "CyberRazor has three main parts: 1. Frontend (React.js): The dashboard for users to view alerts and reports. 2. Backend (FastAPI): Handles data processing, AI predictions, and integrations. 3. Database (MongoDB): Stores all alerts, users, and playbook data. Together, they form a complete SOAR system."
+    },
+    {
+      "id": 307,
+      "question": "How does CyberRazor ensure scalability?",
+      "answer": "The system uses a modular design. You can deploy each part (backend, frontend, database, AI service) separately and scale them as your organization grows. For example, you can add more servers if alerts increase."
+    },
+    {
+      "id": 308,
+      "question": "How is data communication secured in CyberRazor?",
+      "answer": "All data exchanged between frontend, backend, and database is encrypted using HTTPS and secure tokens. This ensures no one can intercept or change the data during transmission."
+    },
+    {
+      "id": 309,
+      "question": "What is the workflow of CyberRazor from detection to response?",
+      "answer": "1. Wazuh detects an event and sends it to CyberRazor. 2. CyberRazor's AI analyzes the alert to check if it's real or false. 3. If confirmed, the playbook triggers an automated response. 4. The dashboard shows the result and stores it in MongoDB for reports."
+    },
+    {
+      "id": 310,
+      "question": "How does CyberRazor use AI in its workflow?",
+      "answer": "AI models process raw logs and classify them as safe or suspicious. The AI also assigns a confidence score and gives a reason for each decision, which helps analysts trust the system's output and review high-risk alerts first."
+    },
+    {
+      "id": 311,
+      "question": "What is the main purpose of the incident playbook?",
+      "answer": "The incident playbook is like a rulebook for automatic actions. It defines what CyberRazor should do when a certain threat type appears. For example, if a malware alert comes, the playbook can automatically isolate that device and send an email to the admin."
+    },
+    {
+      "id": 312,
+      "question": "How are playbooks created in CyberRazor?",
+      "answer": "Admins can create playbooks by defining a set of conditions (like threat type or severity) and actions (like block, alert, or notify). The playbook is then saved in MongoDB and runs automatically whenever conditions are met."
+    },
+    {
+      "id": 313,
+      "question": "Can users customize playbooks for different departments?",
+      "answer": "Yes. Organizations can create different playbooks for finance, HR, or IT departments. Each can have custom actions that suit their needs, improving response coordination."
+    },
+    {
+      "id": 314,
+      "question": "How does CyberRazor handle false positives?",
+      "answer": "CyberRazor lets analysts mark an alert as \"Safe.\" The AI then learns from this feedback, reducing similar false alerts in the future. This makes the model smarter and more accurate over time."
+    },
+    {
+      "id": 315,
+      "question": "How does the real-time dashboard help security teams?",
+      "answer": "The dashboard updates live using WebSocket connections. Teams can watch alerts appear instantly, check system health, and see statistics on threats, AI accuracy, and incident response times — all in one view."
+    },
+    {
+      "id": 316,
+      "question": "Can CyberRazor be used for educational or research purposes?",
+      "answer": "Yes. It's open source and ideal for students or researchers studying AI, cybersecurity, or data analytics. It helps them understand how real-world SOAR systems work while experimenting with threat data safely."
+    },
+    {
+      "id": 317,
+      "question": "What are the future goals for CyberRazor?",
+      "answer": "The team plans to add more AI features, role-based access control (RBAC), multi-cloud integration, and advanced analytics dashboards. Future versions will also include biometric login and better visualization tools."
+    },
+    {
+      "id": 318,
+      "question": "How can CyberRazor support government or enterprise use?",
+      "answer": "CyberRazor can scale across departments, automate compliance reporting, and handle large networks. Its AI-driven alerts help organizations protect sensitive data and reduce dependency on manual monitoring."
+    },
+    {
+      "id": 319,
+      "question": "How does CyberRazor contribute to cost reduction?",
+      "answer": "It reduces the need for 24/7 manual monitoring and lowers license costs by using open-source tools. Automation also saves analyst time and reduces the impact of successful attacks."
+    },
+    {
+      "id": 320,
+      "question": "What technologies power the AI module in CyberRazor?",
+      "answer": "The AI uses TensorFlow, scikit-learn, and Gemini AI API for detection and classification. These tools help the system identify threats accurately and adapt to new patterns automatically."
+    },
+    {
+      "id": 321,
+      "question": "Can CyberRazor integrate with external APIs or tools?",
+      "answer": "Yes. It supports APIs for platforms like TheHive, Slack, Twilio, and email services. This makes it easy to send alerts or trigger actions across different systems."
+    },
+    {
+      "id": 322,
+      "question": "What testing was done for CyberRazor?",
+      "answer": "Testing included: * Unit testing: checking each module separately. * Integration testing: ensuring all components work together. * User testing: validating the dashboard and app usability. All tests confirmed stable performance and correct detection accuracy."
+    },
+    {
+      "id": 323,
+      "question": "How does CyberRazor ensure system availability?",
+      "answer": "It uses cloud hosting and distributed architecture. If one service fails, others keep running. Regular monitoring and backups keep the system reliable and always online."
+    },
+    {
+      "id": 324,
+      "question": "Can CyberRazor be integrated with an organization's SOC?",
+      "answer": "Yes. It can act as the automation layer within a SOC by linking to existing SIEM tools like Wazuh or Elastic Stack, handling repetitive tasks, and sending reports automatically."
+    },
+    {
+      "id": 325,
+      "question": "What are the benefits of using CyberRazor in real-world security operations?",
+      "answer": "CyberRazor: * Detects and responds to threats automatically. * Reduces manual workload. * Improves accuracy with AI learning. * Generates complete reports and visual analytics. * Saves cost by using open-source tools. It gives organizations faster, smarter, and more affordable cybersecurity defense."
+    },
+    {
+      "id": 326,
+      "question": "In one line, what is CyberRazor's vision?",
+      "answer": "To make AI-powered cybersecurity automation accessible, efficient, and affordable for everyone — from small teams to large enterprises."
+    }
+  ]
+}
